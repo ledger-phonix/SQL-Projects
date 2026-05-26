@@ -1,2 +1,3 @@
-# SQL-Projects
-Here are the files and SQL code.
+# Nashville Housing Data Cleaning Project
+
+This repository contains a complete data cleaning and transformation pipeline executed using MySQL Server on real estate data from Nashville. The project showcases practical techniques for handling messy datasets, including self-joins to populate missing property addresses, advanced text manipulation functions to split combined address fields into separated columns for structured querying, and conditional logic to standardize inconsistent categorical variables. Additionally, records were systematically deduplicated by utilizing common table expressions and window ranking functions, and overall table schema efficiency was maximized by dropping obsolete or redundant raw source columns once the parsed features were securely created.
